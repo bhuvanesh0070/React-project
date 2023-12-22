@@ -1,0 +1,206 @@
+body {
+ background-color: rgba(236, 232, 232, 0.558);
+ 
+ 
+}
+.color
+{
+    background-color: rgba(255, 0, 0, 0.202);
+}
+.pointer
+{
+    cursor: pointer;
+}
+
+/* footer */
+
+
+.footer
+{
+  margin-top: 170px !important;
+  padding: 40px 0px !important;
+
+    
+}
+
+.footer .social-accounts a
+{
+    font-size: 20px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    background-color: #ffffff19;
+    border-radius: 5px;
+    margin:10px 10px 10px 0px;
+    padding: 3px;
+
+}
+
+.footer .social-accounts a i
+{
+    
+    color: #eee;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.footer-link ul
+{
+    list-style-type:none;
+    font-size: 20px;
+}
+.footer-link ul a
+{
+    color: #9c9494;
+}
+.footer-link ul a:hover
+{
+    color:rgb(73, 73, 225);
+
+}
+
+
+/* login and register */
+
+
+@media screen and (max-width: 600px){body{background-size: cover;}}
+#particles-js{height: 100%}
+.loginBox
+{
+font-family: sans-serif;
+ 
+  
+  width: 500px;
+  min-height: 200px;
+  background: #0e0d0d;
+  border-radius: 10px;
+  padding: 10px 40px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 2px 2px #151313;
+  margin:30px 0px 40px 0px ;
+}
+.user
+{margin: 0 auto;
+  display: block;
+  margin-bottom: 20px
+}
+ 
+  .loginBox input
+  {width: 100%;
+    margin-bottom: 20px
+  }
+  .loginBox input[type="email"],
+  .loginBox input[type="password"],
+  .loginBox input[type="text"], 
+  .loginBox input[type="number"]
+  {border: none;
+    border-bottom: 2px solid #262626;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    background: transparent;
+    font-size: 16px;
+    padding-left: 20px;
+    box-sizing: border-box
+  }
+  .loginBox input[type="email"]:hover, .loginBox input[type="password"]:hover, .loginBox input[type="text"]:hover, .loginBox input[type="number"]:hover
+  {
+    color: #42F3FA;
+    border: 1px solid #42F3FA;
+    box-shadow: 0 0 5px rgba(0,255,0,.3), 0 0 10px rgba(0,255,0,.2), 0 0 15px rgba(0,255,0,.1), 0 2px 0 black
+  }
+  .loginBox input[type="email"]:focus, .loginBox input[type="password"]:focus, .loginBox input[type="text"]:focus, .loginBox input[type="number"]:focus
+  {
+    border-bottom: 2px solid #42F3FA
+  }
+  .inputBox
+  {
+    position: relative
+  }
+  .inputBox span
+  {
+    position: absolute;
+    top: 10px;
+    color: #262626
+  }
+  .loginBox .login , #signup
+  {
+    
+    height: 40px;
+    font-size: 16px;
+    background-color: transparent ;
+    color: #fff;
+    border-radius: 20px;
+    border:solid 1px  rgb(80, 80, 223);
+    
+    width: 100%;
+  }
+  .loginBox .login:hover{
+    background-color:  #25238f;
+
+  }
+  .loginBox #signup:hover{
+    background-color:  #378f23;
+
+  }
+  
+  .subcolor
+  {
+    color: #59238F;
+  }
+ 
+
+.try-login
+{
+  background-color: #a91b1b;
+  box-shadow: 10px 10px 10px #272727;
+  padding: 20px;
+  position: fixed;
+  left: 70px;
+  bottom: 50px;
+  z-index: 9999;
+  color: white;
+  border-radius: 5px;
+}
+
+
+/* button up */
+
+.button-up
+{
+  position: fixed;
+  bottom: 30px;
+  right:20px;
+  display: none;
+  border-radius: 50%;
+  background: #2f6eccd5;
+  z-index: 9999999999;
+}
+
+
+/* offline */
+
+
+.offline
+{
+  color: rgb(255, 255, 255);
+  background-color:rgb(0, 0, 0) ;
+  box-shadow: 10px 10px 10px rgba(124, 146, 76, 0.74);
+  padding: 20px;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  z-index: 999999;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+
+  
+
+}
